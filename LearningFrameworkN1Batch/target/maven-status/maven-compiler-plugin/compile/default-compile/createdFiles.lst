@@ -1,0 +1,9 @@
+com\elementRepository\HomePage.class
+com\basepackage\BaseClass.class
+com\elementRepository\LoginPage.class
+com\basepackage\BasePage.class
+com\elementRepository\WelcomePage.class
+com\elementRepository\LoginUsingPOM.class
+com\utilityClasses\DataUtilityClass.class
+com\elementRepository\ProductDetailsPage.class
+com\utilityClasses\FrameworkConstants.class

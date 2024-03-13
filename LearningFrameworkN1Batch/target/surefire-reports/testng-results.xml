@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Products page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User entered correct recipient name]]>
+    </line>
+    <line>
+      <![CDATA[User entered correct recipient email]]>
+    </line>
+    <line>
+      <![CDATA[User added a product to wish list button]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart page is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[User entered correct email into email text field]]>
+    </line>
+    <line>
+      <![CDATA[Subscribed to newsletter]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-13T18:36:17 CET" name="Surefire suite" finished-at="2024-03-13T18:37:14 CET" duration-ms="56765">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T18:36:17 CET" name="Surefire test" finished-at="2024-03-13T18:37:14 CET" duration-ms="56765">
+      <class name="AddProductToCartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddProductToCartTest@7a8c8dcf]" started-at="2024-03-13T18:36:17 CET" name="launchBrowser" finished-at="2024-03-13T18:36:28 CET" duration-ms="10766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AddProductToCartTest@7a8c8dcf]" started-at="2024-03-13T18:36:28 CET" name="login" finished-at="2024-03-13T18:36:29 CET" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToCart()[pri:0, instance:AddProductToCartTest@7a8c8dcf]" started-at="2024-03-13T18:36:29 CET" name="addProductToCart" finished-at="2024-03-13T18:36:31 CET" duration-ms="1990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AddProductToCartTest@7a8c8dcf]" started-at="2024-03-13T18:36:31 CET" name="logout" finished-at="2024-03-13T18:36:33 CET" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AddProductToCartTest@7a8c8dcf]" started-at="2024-03-13T18:36:33 CET" name="quit" finished-at="2024-03-13T18:36:33 CET" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AddProductToCartTest -->
+      <class name="SubscribeToNewsLetterTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:SubscribeToNewsLetterTest@24aed80c]" started-at="2024-03-13T18:37:01 CET" name="launchBrowser" finished-at="2024-03-13T18:37:10 CET" duration-ms="8863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:SubscribeToNewsLetterTest@24aed80c]" started-at="2024-03-13T18:37:10 CET" name="login" finished-at="2024-03-13T18:37:12 CET" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="subscribe()[pri:0, instance:SubscribeToNewsLetterTest@24aed80c]" started-at="2024-03-13T18:37:12 CET" name="subscribe" finished-at="2024-03-13T18:37:12 CET" duration-ms="692" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[User entered correct email into email text field]]>
+            </line>
+            <line>
+              <![CDATA[Subscribed to newsletter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subscribe -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:SubscribeToNewsLetterTest@24aed80c]" started-at="2024-03-13T18:37:12 CET" name="logout" finished-at="2024-03-13T18:37:13 CET" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:SubscribeToNewsLetterTest@24aed80c]" started-at="2024-03-13T18:37:13 CET" name="quit" finished-at="2024-03-13T18:37:14 CET" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- SubscribeToNewsLetterTest -->
+      <class name="AddToWishListTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddToWishListTest@24269709]" started-at="2024-03-13T18:36:33 CET" name="launchBrowser" finished-at="2024-03-13T18:36:42 CET" duration-ms="9121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AddToWishListTest@24269709]" started-at="2024-03-13T18:36:42 CET" name="login" finished-at="2024-03-13T18:36:44 CET" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToWishList()[pri:0, instance:AddToWishListTest@24269709]" started-at="2024-03-13T18:36:44 CET" name="addToWishList" finished-at="2024-03-13T18:36:47 CET" duration-ms="3709" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Products page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User entered correct recipient name]]>
+            </line>
+            <line>
+              <![CDATA[User entered correct recipient email]]>
+            </line>
+            <line>
+              <![CDATA[User added a product to wish list button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToWishList -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AddToWishListTest@24269709]" started-at="2024-03-13T18:36:47 CET" name="logout" finished-at="2024-03-13T18:36:48 CET" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AddToWishListTest@24269709]" started-at="2024-03-13T18:36:48 CET" name="quit" finished-at="2024-03-13T18:36:49 CET" duration-ms="509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AddToWishListTest -->
+      <class name="ClickOnShoppingCartLinkTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:ClickOnShoppingCartLinkTest@2aceadd4]" started-at="2024-03-13T18:36:49 CET" name="launchBrowser" finished-at="2024-03-13T18:36:58 CET" duration-ms="9264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ClickOnShoppingCartLinkTest@2aceadd4]" started-at="2024-03-13T18:36:58 CET" name="login" finished-at="2024-03-13T18:37:00 CET" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnShoppingCartLink()[pri:0, instance:ClickOnShoppingCartLinkTest@2aceadd4]" started-at="2024-03-13T18:37:00 CET" name="clickOnShoppingCartLink" finished-at="2024-03-13T18:37:00 CET" duration-ms="588" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Shopping cart page is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnShoppingCartLink -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ClickOnShoppingCartLinkTest@2aceadd4]" started-at="2024-03-13T18:37:00 CET" name="logout" finished-at="2024-03-13T18:37:01 CET" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:ClickOnShoppingCartLinkTest@2aceadd4]" started-at="2024-03-13T18:37:01 CET" name="quit" finished-at="2024-03-13T18:37:01 CET" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- ClickOnShoppingCartLinkTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

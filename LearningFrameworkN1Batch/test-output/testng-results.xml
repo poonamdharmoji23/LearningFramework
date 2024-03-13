@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-13T18:28:17 CET" name="Default suite" finished-at="2024-03-13T18:28:41 CET" duration-ms="23939">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T18:28:17 CET" name="Default test" finished-at="2024-03-13T18:28:41 CET" duration-ms="23939">
+      <class name="AddProductToCartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:AddProductToCartTest@6fe7aac8]" started-at="2024-03-13T18:28:17 CET" name="launchBrowser" finished-at="2024-03-13T18:28:36 CET" duration-ms="18905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:AddProductToCartTest@6fe7aac8]" started-at="2024-03-13T18:28:36 CET" name="login" finished-at="2024-03-13T18:28:38 CET" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProductToCart()[pri:0, instance:AddProductToCartTest@6fe7aac8]" started-at="2024-03-13T18:28:38 CET" name="addProductToCart" finished-at="2024-03-13T18:28:40 CET" duration-ms="2209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:AddProductToCartTest@6fe7aac8]" started-at="2024-03-13T18:28:40 CET" name="logout" finished-at="2024-03-13T18:28:41 CET" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:AddProductToCartTest@6fe7aac8]" started-at="2024-03-13T18:28:41 CET" name="quit" finished-at="2024-03-13T18:28:41 CET" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- AddProductToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
